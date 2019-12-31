@@ -1,8 +1,31 @@
+[![](https://jitpack.io/v/ALXKAY/SmoothCheckBox.svg)](https://jitpack.io/#ALXKAY/SmoothCheckBox)
+
+
 #SmoothCheckBox
 
 ### ScreenShot 截图:
 
 ![](https://github.com/andyxialm/SmoothCheckBox/blob/master/art/smoothcb.gif?raw=true)
+
+### Installation
+
+### Gradle
+
+Add it in your root build.gradle at the end of repositories:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+Add the dependency:
+
+```gradle
+dependencies {
+    implementation 'com.github.ALXKAY:SmoothCheckBox:1.1'
+}
+```
 
 ### Attrs 属性
 |attr|format|description|
